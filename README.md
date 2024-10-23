@@ -6,13 +6,10 @@ Final Project for iOS app development at Boston College
 ### Features
 - **Word Guessing Game**: Combines gameplay elements from both Hangman and Wordle.
   - Players guess letters to reveal a hidden word.
-  - The game provides feedback on correct and incorrect guesses.
-- **Word Fetching API**: The game uses a third-party API to fetch random words, ensuring a new and challenging experience every time.
+  - The game provides feedback on correct and incorrect guesses, as well as their location (index).
+- **Word Fetching API**: The game uses a third-party API to fetch random 5-letter words, ensuring a new and challenging experience every time.
 - **Firebase Integration**: User data (e.g., game progress, scores) is stored and managed through **Firebase**, enabling persistent data and the ability to resume games.
 - **User Accounts**: Users can sign up, log in, and track their progress across multiple sessions.
-
-### Screenshots
-(Add screenshots of the app here)
 
 ### Installation
 
@@ -68,4 +65,4 @@ Open the `GuessKing.xcworkspace` in Xcode and run the project on a simulator or 
 - Improve the UI with animations and sound effects.
 
 ---
-used to be called SchoolVsSchoolTrivia
+*Repo used to be called SchoolVsSchoolTrivia*
